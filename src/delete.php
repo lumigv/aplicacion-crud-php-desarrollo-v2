@@ -8,12 +8,12 @@ include("config.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baja empleado/a</title>
+    <title>Bajas</title>
 </head>
 <body>
 <div>
 	<header>
-		<h1>ELECTROSHOP S.L.</h1>
+		<h1>APLICACION CRUD PHP</h1>
 	</header>
 	<main>
 

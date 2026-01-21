@@ -8,12 +8,12 @@ include_once("config.php");
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<title>Electroshop S.L.</title>
+	<title>Modificaciones</title>
 </head>
 <body>
 <div>
 	<header>
-		<h1>ELECTROSHOP S.L.</h1>
+		<h1>APLICACION CRUD PHP</h1>
 	</header>
 	
 	<main>				
@@ -21,7 +21,7 @@ include_once("config.php");
 		<li><a href="index.php" >Inicio</a></li>
 		<li><a href="add.html" >Alta</a></li>
 	</ul>
-	<h2>Modificación empleado/a</h2>
+	<h2>Modificación</h2>
 
 
 <?php
