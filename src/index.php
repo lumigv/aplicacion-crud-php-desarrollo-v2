@@ -13,12 +13,12 @@ include_once("config.php");
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<title>Electroshop S.L.</title>
+	<title>CRUD PHP</title>
 </head>
 <body>
 <div>
 	<header>
-		<h1>ELECTROSHOP S.A.</h1>
+		<h1>APLICACION CRUD PHP</h1>
 	</header>
 
 	<main>
@@ -26,7 +26,6 @@ include_once("config.php");
 		<li><a href="index.php">Inicio</a></li>
 		<li><a href="add.html">Alta</a></li>
 	</ul>
-	<h2>YA HEMOS TERMINADO!!!!!!!!</h2>
 	<table border="1">
 	<thead>
 		<tr>
@@ -106,7 +105,7 @@ Este forma de pasar el dato se conoce como: método GET*/
 	</table>
 	</main>
 	<footer>
-    	Created by the IES Miguel Herrero team &copy; 2025
+    	Created by the IES Miguel Herrero team &copy; 2026
   	</footer>
 </div>
 </body>

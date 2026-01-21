@@ -28,8 +28,11 @@ RUN apt-get update \
 
 # COPY: Permite copiar archivos o directorios desde el contexto local de la máquina donde estamos creando la imagen hasta la imagen que será el sistema de archivos que utilizará el contenedor.
 # Copia el contenido del directorio /src (contenido del sitio web) en el "documentroot" del sitio de apache (/var/www/html)
+# Nota IMPORTANTE: Durante la fase de desarrollo, es mejor usar un volumen "bind-mount" para que los cambios que hagamos en el código fuente se reflejen directamente en el contenedor sin necesidad de reconstruir la imagen.
+# En producción es mejor copiar los archivos con la instrucción COPY para que el contenedor sea independiente del código fuente de la máquina host.
 
-COPY /src /var/www/html
+# ATENCIÓN: En desarrollo la comentamos y cuando vayamos a producción con la aplicación definitiva la descomentamos
+# COPY /src /var/www/html
 
 # Copia la configuración del sitio en el directorio de configuración de los sitios de apache (/etc/apache2/sites-available)
 
